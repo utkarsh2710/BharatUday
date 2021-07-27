@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
 }
+
 .background {    
     height: 100%;
     background: linear-gradient(0deg, rgba(202, 192, 106, 0.69), rgba(202, 192, 106, 0.69)), url(/Users/manansinghmehta/Downloads/rural-children.jpeg);
@@ -12,43 +13,54 @@ html, body {
     
 }
 
-
-
-.heading {
-    position: absolute;
-    width: 230px;
-    height: 57px;
-    left: 82px;
-    top: 64px;
+.homepage_heading{
+    color: white;
     margin: 0;
-    
-    font-family: Londrina Solid;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 42px;
-    line-height: 50px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    
-    color: #FFFFFF;
+    font-size: 2vw;
+    position: relative;
+    left: 82px;
+    top: 50px;
+    line-height: 250%;
 }
 
-.heading2 {
-     position: absolute;
-     width: 1231px;
-     height: 186px;
-     left: 82px;
-     top: 248px;
-     
-     font-family: Source Serif Pro;
-     font-style: normal;
-     font-weight: bold;
-     font-size: 42px;
-     line-height: 73px;
-     display: flex;
-     align-items: center;
-     
-     color: #FFFFFF;     
-     
 
+
+navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    left: 82px;
+    width:90%;
+}
+
+ul{
+    list-style: none;
+  }
+  
+li {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+  }
+
+.container-fluid{
+    padding: 0;
+    position: relative;
+    left: 82px;
+    top: 50px;
+}
+
+
+.nav-bar {
+font-family: Source Serif Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+display: flex;
+align-items: center;
+}
