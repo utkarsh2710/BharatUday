@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.background {    
+    height: 100%;
+    background: linear-gradient(0deg, rgba(196, 180, 150, 0.69), rgba(196, 180, 150, 0.69)), url(/Users/manansinghmehta/Downloads/rural-children.jpeg);
+    background-blend-mode: multiply, normal;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+
+.sign_in_button{
+    position: relative;
+    bottom: 3px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px 25px 25px 25px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.homepage_heading{
+    font-size: 3vw;
+    width: 75vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    line-height: 150%;
+    color: #fff;
+}
+
+.homepage_button{
+    background-color: transparent;
+    border: 3px solid;
+    color: #fff;
+    border-color: #fff;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 7vh;
+    padding: 10px;
+    border-radius: 0 25px 25px 25px;
+}
+
+
+navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    left: 82px;
+    width:90%;
+}
+
+ul{
+    list-style: none;
+  }
+  
+li {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+  }
+
+.container-fluid{
+    padding: 0;
+    position: relative;
+    left: 82px;
+    top: 50px;
+}
+
+
+.nav-bar {
+font-family: Source Serif Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+display: flex;
+align-items: center;
+}
