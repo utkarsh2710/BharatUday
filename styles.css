@@ -5,7 +5,7 @@ html, body {
 
 .background {
     height: 100%;
-    background: linear-gradient(0deg, rgba(196, 180, 150, 0.69), rgba(196, 180, 150, 0.69)), url(/Users/manansinghmehta/Downloads/image2.png);
+    background: url("/Users/manansinghmehta/Desktop/Bharat uday/website/BharatUday/images/image 2.png");
     background-blend-mode: multiply, normal;
     background-position: center;
     background-size: cover;
@@ -47,12 +47,9 @@ html, body {
     border-radius: 0 25px 25px 25px;
 }
 
-.waves{
-  width: 100vw;
-  height: 40vh;
-  position: relative;
-  bottom: 0px;
-  margin-top: 50px;
+.section_images{
+    width: 100%;
+    height: auto;
 }
 
 navbar{
