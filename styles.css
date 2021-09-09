@@ -5,12 +5,21 @@ html, body {
 
 .background {
     height: 100%;
-    background: url("/Users/manansinghmehta/Desktop/Bharat uday/website/BharatUday/images/image 2.png");
+    background: url("./images/rural_children_mobile.png");
     background-blend-mode: multiply, normal;
     background-position: center;
     background-size: cover;
 }
 
+@media only screen and (min-width: 550px) {
+    .background {
+        height: 100%;
+        background: url("./images/image 2.png");
+        background-blend-mode: multiply, normal;
+        background-position: center;
+        background-size: cover;
+    }
+}
 
 .sign_in_button{
     position: relative;
@@ -24,8 +33,6 @@ html, body {
 
 }
 
-
-
 .homepage_heading{
     font-size: 3vw;
     width: 75vw;
@@ -33,6 +40,29 @@ html, body {
     padding-right: 7vw;
     line-height: 150%;
     color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .homepage_heading{
+        font-size: 32px;
+        width: 75vw;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        line-height: 150%;
+        color: #fff;
+    }
+}
+
+#brand_name{
+    color: white;
+    font-size: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+    #brand_name{
+        font-size: 32px;
+        line-height: 150%;
+        color: #fff;
+    }
 }
 
 .homepage_button{
@@ -46,6 +76,43 @@ html, body {
     padding: 10px;
     border-radius: 0 25px 25px 25px;
 }
+
+
+.watch_the_video{
+    margin-right: 3vw; 
+    font-size: 1.5vw;
+}
+
+
+.sign_up{
+    margin-left: 1vw; 
+    font-size: 1.5vw;
+}
+@media only screen and (max-width: 600px) {
+    .homepage_button{
+        background-color: transparent;
+        border: 3px solid;
+        color: #fff;
+        border-color: #fff;
+        margin-left: 7vw;
+        margin-right: 7vw;
+        margin-top: 7vh;
+        padding: 10px;
+        border-radius: 0 25px 25px 25px;
+    }
+
+    .watch_the_video{
+        margin-right: 3vw; 
+        font-size: 15px;
+    }
+
+    .sign_up{
+        margin-left: 1vw; 
+        font-size: 15px;
+    }
+}
+
+
 
 .section_images{
     width: 100%;
