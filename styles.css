@@ -119,6 +119,14 @@ html, body {
     height: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    .section_images{
+        width: 100%;
+        height: auto;
+    }
+}    
+
+
 navbar{
     display: flex;
     justify-content: space-between;
